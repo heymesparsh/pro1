@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import useStorage from "../contexts/useStorage";
+import useStorage from "../hooks/useStorage";
 import { ProgressBar } from "react-bootstrap";
 
 const ProgBar = ({ file, setFile }) => {

@@ -1,11 +1,10 @@
 import React from "react";
-import useFirestore from "../contexts/useFirestore";
+import useFirestore from "../hooks/useFirestore";
 import { Card } from "react-bootstrap";
 import Comments from "./Comments";
 
 const ImageGrid = () => {
   const { docs } = useFirestore("images");
-  console.log(docs);
 
   return (
     <div>
